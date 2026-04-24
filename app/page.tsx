@@ -47,7 +47,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="bg-slate-900 text-white px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
-  <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
+  <img src="/logo.png" alt="Logo" className="h-15 w-auto" />
   <span className="font-bold text-lg">Buddies Breakdown and Recovery</span>
 </div>
         <div className="hidden sm:flex gap-6">
