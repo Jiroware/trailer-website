@@ -47,9 +47,12 @@ export default function Home() {
       {/* Navbar */}
       <nav className="bg-slate-900 text-white px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
-  <img src="/logo.png" alt="Logo" className="h-15 w-auto" />
-  <span className="font-bold text-lg">Buddies Breakdown and Recovery</span>
-</div>
+          <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
+          <span className="font-bold text-lg">
+            Buddies Breakdown and Recovery
+          </span>
+        </div>
+
         <div className="hidden sm:flex gap-6">
           <a href="#services">Services</a>
           <a href="#why">Why Us</a>
@@ -72,32 +75,24 @@ export default function Home() {
           safe transport, and dependable service you can trust.
         </p>
 
-        <div className="flex justify-center gap-4 flex-wrap">
+        {/* Buttons (STACKED) */}
+        <div className="flex flex-col items-center gap-4">
           <a
             href="tel:+4407448053458"
-            className="bg-orange-500 px-6 py-3 rounded font-semibold hover:bg-orange-600"
+            className="bg-orange-500 w-48 text-center px-6 py-3 rounded font-semibold hover:bg-orange-600"
           >
             Call Now
           </a>
 
           <a
-            href="https://wa.me/440000000000"
+            href="https://wa.me/message/Q7VZW2YR627VI1"
             target="_blank"
-            className="bg-white text-black px-6 py-3 rounded font-semibold"
+            className="bg-white text-black w-48 text-center px-6 py-3 rounded font-semibold"
           >
             WhatsApp
           </a>
-
-          <a
-            href="#contact"
-            className="border px-6 py-3 rounded font-semibold hover:bg-white hover:text-black"
-          >
-            Get a Quote
-          </a>
         </div>
       </section>
-
-      
 
       {/* Services */}
       <section id="services" className="py-16 px-6 max-w-6xl mx-auto">
@@ -168,12 +163,12 @@ export default function Home() {
           <div className="grid sm:grid-cols-3 gap-4">
             <div className="bg-white/10 p-6 rounded-xl">
               <p className="font-bold">Phone</p>
-              <p>N/A</p>
+              <p>07448053458</p>
             </div>
 
             <div className="bg-white/10 p-6 rounded-xl">
               <p className="font-bold">WhatsApp</p>
-              <p>N/A</p>
+              <p>Message Us</p>
             </div>
 
             <div className="bg-white/10 p-6 rounded-xl">
@@ -186,7 +181,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-black text-white text-center py-6">
-        <p>© 2026 N/A Transport. All rights reserved.</p>
+        <p>© 2026 Buddies Breakdown and Recovery. All rights reserved.</p>
       </footer>
     </main>
   );
