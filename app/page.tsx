@@ -74,14 +74,14 @@ export default function Home() {
 
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="tel:+440000000000"
+            href="tel:+4407448053458"
             className="bg-orange-500 px-6 py-3 rounded font-semibold hover:bg-orange-600"
           >
             Call Now
           </a>
 
           <a
-            href="https://wa.me/440000000000"
+            href="https://wa.me/message/Q7VZW2YR627VI1"
             target="_blank"
             className="bg-white text-black px-6 py-3 rounded font-semibold"
           >
